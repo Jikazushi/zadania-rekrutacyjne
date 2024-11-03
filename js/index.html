@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Grayscale</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Uploader and Grayscale Converter</h1>
+
+        <input type="file" id="imageUpload" accept="image/*">
+        <button id="convertGrayscale">Convert to Grayscale</button>
+
+        <div class="image-container">
+            <h3>Original Image:</h3>
+            <img id="uploadedImage" alt="Uploaded Image" />
+        </div>
+
+        <div class="image-container">
+            <h3>Grayscale Image:</h3>
+            <canvas id="grayscaleImage"></canvas>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
